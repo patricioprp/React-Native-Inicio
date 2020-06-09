@@ -34,6 +34,14 @@ const HomeScreen = ({navigation}) => {
       title="Go to Square Demo With Redux"
       onPress={() => navigation.navigate('CounterRedux')}
       />
+      <Button 
+      title="Go to TextScreen Demo"
+      onPress={() => navigation.navigate('Text')}
+      />
+      <Button 
+      title="Go to TextCondiconal Demo"
+      onPress={() => navigation.navigate('TextCondiconal')}
+      />
       </View>
       );
 };
