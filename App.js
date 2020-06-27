@@ -10,6 +10,7 @@ import SquareScreen from "./src/screens/SquareScreen";
 import CounterReduxScreen from "./src/screens/CounterReduxScreen";
 import TextScreen from "./src/screens/TextScreen";
 import TextCondicional from "./src/screens/TextCondicionalScreen";
+import BoxScreen from "./src/screens/BoxScreen";
 
 const navigator = createStackNavigator(
   {
@@ -22,7 +23,8 @@ const navigator = createStackNavigator(
     Square: SquareScreen,
     CounterRedux: CounterReduxScreen,
     Text: TextScreen,
-    TextCondiconal: TextCondicional
+    TextCondiconal: TextCondicional,
+    Box: BoxScreen
   },
   {
     initialRouteName: 'Home',

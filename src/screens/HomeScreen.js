@@ -42,6 +42,10 @@ const HomeScreen = ({navigation}) => {
       title="Go to TextCondiconal Demo"
       onPress={() => navigation.navigate('TextCondiconal')}
       />
+      <Button 
+      title="Go to Box Demo"
+      onPress={() => navigation.navigate('Box')}
+      />
       </View>
       );
 };
